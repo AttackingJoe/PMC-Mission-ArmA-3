@@ -1,0 +1,199 @@
+version=53;
+center[]={5728.6709,-60.779999,9276.8867};
+class items
+{
+	items=7;
+	class Item0
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={-5728.6709,0.5,-9276.8867};
+		};
+		side="Empty";
+		flags=5;
+		class Attributes
+		{
+			name="bullseye";
+		};
+		id=12;
+		type="Land_VR_Shape_01_cube_1m_F";
+	};
+	class Item1
+	{
+		dataType="Group";
+		side="Independent";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={803.30029,110.11855,1314.3545};
+				};
+				side="Independent";
+				flags=7;
+				class Attributes
+				{
+					init="hint ""I exist mother fucker""";
+					isPlayer=1;
+					stance="Middle";
+				};
+				id=14;
+				type="I_C_Soldier_Bandit_3_F";
+				class CustomAttributes
+				{
+					class Attribute0
+					{
+						property="speaker";
+						expression="_this setspeaker _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Male01FRE";
+							};
+						};
+					};
+					class Attribute1
+					{
+						property="pitch";
+						expression="_this setpitch _value;";
+						class Value
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"SCALAR"
+									};
+								};
+								value=1;
+							};
+						};
+					};
+					nAttributes=2;
+				};
+			};
+		};
+		class Attributes
+		{
+		};
+		id=13;
+	};
+	class Item2
+	{
+		dataType="Group";
+		side="Independent";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={791.06006,111.13344,1309.8555};
+				};
+				side="Independent";
+				flags=7;
+				class Attributes
+				{
+				};
+				id=15;
+				type="I_C_Soldier_Bandit_5_F";
+			};
+		};
+		class Attributes
+		{
+		};
+		id=16;
+	};
+	class Item3
+	{
+		dataType="Group";
+		side="Independent";
+		class Entities
+		{
+			items=1;
+			class Item0
+			{
+				dataType="Object";
+				class PositionInfo
+				{
+					position[]={802.12842,112.85519,1301.2324};
+				};
+				side="Independent";
+				flags=7;
+				class Attributes
+				{
+				};
+				id=18;
+				type="I_C_Soldier_Bandit_4_F";
+			};
+		};
+		class Attributes
+		{
+		};
+		id=17;
+	};
+	class Item4
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={822.39355,109.47592,1333.6904};
+			angles[]={0.010664274,3.7433524,0.050622065};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=19;
+		type="Land_Wreck_Offroad_F";
+	};
+	class Item5
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={824.59814,109.55348,1339.2803};
+			angles[]={0.0026744273,6.2480845,0.058599081};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=20;
+		type="Land_Wreck_Offroad_F";
+	};
+	class Item6
+	{
+		dataType="Object";
+		class PositionInfo
+		{
+			position[]={821.03418,108.99164,1337.291};
+			angles[]={0.0080009829,4.9065523,0.053282689};
+		};
+		side="Empty";
+		flags=4;
+		class Attributes
+		{
+		};
+		id=22;
+		type="RoadBarrier_F";
+	};
+};

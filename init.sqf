@@ -1,0 +1,4 @@
+execVM "scripts\money.sqf";
+
+
+
