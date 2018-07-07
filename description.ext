@@ -1,5 +1,14 @@
-class CfgFunctions {
-	#include "LARs\LARs_spawnComp.cpp"
+#include "LARs\LARs_spawnComp.cpp"
+#include "missions\compositions.cfg"
+
+class CfgFunctions
+{
+	class function 
+	{
+		class economy
+		{
+			class addmoney {file = "scripts\economy\fnc_addmoney.sqf";};
+		};
+	};
 };
 
-#include "missions\compositions.cfg"

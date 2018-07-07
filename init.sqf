@@ -1,4 +1,4 @@
-execVM "scripts\money.sqf";
+execVM "scripts\economy\initmoney.sqf";
 
 
 
