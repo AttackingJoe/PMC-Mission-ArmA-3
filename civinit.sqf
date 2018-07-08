@@ -1,6 +1,6 @@
 execVM "CW_ACIM\ACIM_init.sqf";
-execVM "Enigma\Civilians\Init.sqf";
-execVM "Enigma\Traffic\Init.sqf";
+execVM "Engima\Civilians\Init.sqf";
+execVM "Engima\Traffic\Init.sqf";
 
 // Set civilian parameters.
 _parameters = [
@@ -36,7 +36,7 @@ _parameters = [
 	["ON_UNIT_REMOVING", {}],
 	["ON_SPAWN_CALLBACK", {}],  // Obsolete! Use ON_UNIT_CREATED instead.
 	["ON_REMOVE_CALLBACK", {}], // Obsolete! Use ON_UNIT_REMOVING instead.
-	["DEBUG", false]
+	["DEBUG", true]
 ];
 
 // Start an instance of the traffic
