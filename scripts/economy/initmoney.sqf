@@ -1,2 +1,2 @@
-missionNamespace setVariable [accountbalance, "0"];
-publicVariable accountbalance; 
+missionNamespace setVariable ["accountbalance", 1,true];
+

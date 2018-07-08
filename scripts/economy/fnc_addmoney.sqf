@@ -1,6 +1,3 @@
-params ["_addBal","_oldBal","_newBal"]; // the param
-_oldBal = missionNamespace getVariable accountbalance;
-_newBal = _oldBal + _addBal;
-missionNamespace setVariable [accountbalance, _newBal];
-publicVariable accountbalance; 
-
+params ["_addvalue"];
+accountbalance = accountbalance + _addvalue;
+hint format["account value is %1", accountbalance];
