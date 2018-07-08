@@ -21,5 +21,4 @@ ENGIMA_CIVILIANS_INSTANCE_NO = 0;
 
 if (isServer) then {
 	call compile preprocessFileLineNumbers "Engima\Civilians\Server\ServerFunctions.sqf";
-	call compile preprocessFileLineNumbers "Engima\Civilians\ConfigAndStart.sqf";
 };

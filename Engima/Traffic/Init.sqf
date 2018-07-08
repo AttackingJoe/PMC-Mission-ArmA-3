@@ -29,5 +29,4 @@ if (_runOnThisMachine) then {
 	call compile preprocessFileLineNumbers "Engima\Traffic\Server\Functions.sqf";
 	call compile preprocessFileLineNumbers "Engima\Traffic\Server\MoveVehicle.sqf";
 	call compile preprocessFileLineNumbers "Engima\Traffic\Server\StartTraffic.sqf";
-	call compile preprocessFileLineNumbers "Engima\Traffic\ConfigAndStart.sqf";
 };
