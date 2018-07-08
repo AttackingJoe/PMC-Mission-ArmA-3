@@ -1,2 +1,2 @@
-missionNamespace setVariable ["accountbalance", 1,true];
+missionNamespace setVariable ["accountbalance", 5000,true];
 
