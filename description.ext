@@ -1,5 +1,9 @@
 #include "LARs\LARs_spawnComp.cpp"
 #include "missions\compositions.cfg"
+#include "CW_ACIM\Dialog\UI\ACIM_ui_include.hpp"
+////THE FOLLOWING LINE IS NEEDED FOR GRIMES SIMPLE REVIVE DESCRIPTION.EXT. 
+#include "G_Revive\G_Desc_Include.hpp"
+////
 
 class CfgFunctions
 {
@@ -13,3 +17,28 @@ class CfgFunctions
 	};
 };
 
+class CfgSounds
+{
+	sounds[] = {};
+	class getdown
+	{
+		name = "get_down";
+		// filename, volume, pitch
+		sound[] = {"CW_ACIM\Sound\getdown.ogg", 1, 1};
+		titles[] = {};
+	};
+	class handcuff
+	{
+		name = "handcuff";
+		// filename, volume, pitch
+		sound[] = {"CW_ACIM\Sound\handcuff.ogg", 1, 1};
+		titles[] = {};
+	};
+	class zipper
+	{
+		name = "zipper";
+		// filename, volume, pitch
+		sound[] = {"CW_ACIM\Sound\zipper.ogg", 1, 1};
+		titles[] = {};
+	};
+};
