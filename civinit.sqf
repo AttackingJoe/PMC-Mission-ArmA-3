@@ -1,6 +1,6 @@
 execVM "CW_ACIM\ACIM_init.sqf";
-execVM "Enigma\Civilians\init.sqf";
-execVM "Enigma\Traffic\init.sqf";
+execVM "Enigma\Civilians\Init.sqf";
+execVM "Enigma\Traffic\Init.sqf";
 
 // Set civilian parameters.
 _parameters = [
