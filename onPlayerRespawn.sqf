@@ -1,3 +1,3 @@
-if (side _this == West){
-execVM "scripts\gear\pmc.sqf";
-};
+_unit = _this select 0;
+[_unit] execVM "scripts\gear\pmc.sqf";
+
