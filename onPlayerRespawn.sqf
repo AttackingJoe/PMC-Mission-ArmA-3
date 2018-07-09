@@ -1,1 +1,3 @@
-execVM "scripts\gear\pmc.sqf"
+if (side _this == West){
+execVM "scripts\gear\pmc.sqf";
+};
