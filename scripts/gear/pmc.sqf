@@ -19,18 +19,18 @@ this linkItem "ItemCompass";
 this linkItem "ItemWatch";
 this linkItem "ItemRadio";
 this linkItem "ItemGPS";
-//===============================================================================================
-//Set MAG numbers, repeat for desired number of magazines
-for "_i" from 1 to 3 do {this addItemToUniform "30Rnd_762x39_Mag_F";};
-//this addMagazine "11Rnd_45ACP_Mag";
-
-//Set FAC  numbers, repeat for desired number of FACS
-//this addItem _FAC;
-//this addItem _FAC;
-
-//===============================================================================================
 //adds defined gear 
 this addHeadgear _helm;
 this addUniform _clothes;
 this addVest _vest;
+//===============================================================================================
+//Set ammount of Magazines, change second number to desird ammount
+for "_i" from 1 to 6 do {this addItemToVest _defaultmag;};
+
+
+//Set ammount of FACS, change second number to desird ammount
+for "_i" from 1 to 2 do {this addItemToUniform _FAC;};
+
+//===============================================================================================
+//Gun gets added last so it spawns loaded.
 this addWeapon _defaultgun;

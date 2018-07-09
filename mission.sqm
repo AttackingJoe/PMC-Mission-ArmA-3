@@ -8,14 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=97;
+		nextID=98;
+	};
+	class MarkerIDProvider
+	{
+		nextID=1;
 	};
 	class Camera
 	{
-		pos[]={5680.2295,78.531624,11079.452};
-		dir[]={-0.44055307,-0.76962423,-0.462302};
-		up[]={-0.53097838,0.63840693,-0.55718976};
-		aside[]={-0.72398102,-1.2951205e-007,0.68992054};
+		pos[]={5620.4863,30.491293,11046.313};
+		dir[]={-0.12355173,-0.83492589,0.53635335};
+		up[]={-0.18742388,0.55034488,0.81363159};
+		aside[]={0.9744997,-9.4878487e-008,0.22448112};
 	};
 };
 binarizationWanted=0;
@@ -29,13 +33,14 @@ addons[]=
 	"A3_Structures_F_Heli_Furniture",
 	"A3_Props_F_Orange_Furniture",
 	"A3_Structures_F_Exp_Infrastructure_Airports",
-	"A3_Characters_F"
+	"A3_Characters_F",
+	"A3_Ui_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=6;
+		items=7;
 		class Item0
 		{
 			className="A3_Structures_F_Exp";
@@ -78,12 +83,148 @@ class AddonsMetaData
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
+		class Item6
+		{
+			className="A3_Ui_F";
+			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=366090;
 class ScenarioData
 {
 	author="AttackingJoe";
+	disabledAI=1;
+	respawn=3;
+	respawnDelay=10;
+	class Header
+	{
+		gameType="Coop";
+		minPlayers=1;
+		maxPlayers=10;
+	};
+};
+class CustomAttributes
+{
+	class Category0
+	{
+		name="Multiplayer";
+		class Attribute0
+		{
+			property="ReviveDelay";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=30.000002;
+				};
+			};
+		};
+		class Attribute1
+		{
+			property="ReviveUnconsciousStateMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute2
+		{
+			property="RespawnTemplates";
+			expression="true";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"ARRAY"
+						};
+					};
+					class value
+					{
+						items=1;
+						class Item0
+						{
+							class data
+							{
+								class type
+								{
+									type[]=
+									{
+										"STRING"
+									};
+								};
+								value="Counter";
+							};
+						};
+					};
+				};
+			};
+		};
+		class Attribute3
+		{
+			property="ReviveMode";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=1;
+				};
+			};
+		};
+		class Attribute4
+		{
+			property="ReviveRequiredItems";
+			expression="false";
+			class Value
+			{
+				class data
+				{
+					class type
+					{
+						type[]=
+						{
+							"SCALAR"
+						};
+					};
+					value=2;
+				};
+			};
+		};
+		nAttributes=5;
+	};
 };
 class Mission
 {
@@ -109,7 +250,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=29;
+		items=30;
 		class Item0
 		{
 			dataType="Object";
@@ -615,8 +756,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5657.7568,2.6614389,11039.39};
-						angles[]={-0,2.2667639,0};
+						position[]={5621.5479,21.899439,11053.123};
+						angles[]={0,5.4916263,0};
 					};
 					side="West";
 					flags=6;
@@ -628,6 +769,7 @@ class Mission
 					};
 					id=84;
 					type="B_Soldier_unarmed_F";
+					atlOffset=0.00040245056;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1096,7 +1238,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5651.9927,2.6614389,11041.465};
+						position[]={5651.9932,2.6614389,11041.465};
 						angles[]={-0,2.4512103,0};
 					};
 					side="West";
@@ -1216,6 +1358,15 @@ class Mission
 			{
 			};
 			id=74;
+			atlOffset=0.00040245056;
+		};
+		class Item29
+		{
+			dataType="Marker";
+			position[]={5648.3911,2.6600001,11053.444};
+			name="Respawn_West";
+			type="Empty";
+			id=97;
 		};
 	};
 };
