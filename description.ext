@@ -4,14 +4,6 @@ class CfgFunctions
 {
 	class function 
 	{
-		class economy
-		{
-			class addmoney {file = "scripts\economy\fnc_addmoney.sqf";
-			headerType = -1;};
-			class buyweapon {file = "scripts\economy\fnc_buyweapon.sqf";
-			headerType = -1;};
-		};
-		
 		class gear
 		{
 			class pmcgear {file = "scripts\gear\pmc.sqf";
