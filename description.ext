@@ -9,6 +9,26 @@ class CfgFunctions
 			class addmoney {file = "scripts\economy\fnc_addmoney.sqf";
 			headerType = -1;};
 		};
+<<<<<<< HEAD
+=======
+		class gear
+		{
+			class pmcgear {file = "scripts\gear\pmc.sqf";
+			headerType = -1;};
+		};
+		{
+			class iongear {file = "scripts\gear\ion.sqf";
+			headerType = -1;};
+		};
+		{
+			class cartelgear {file = "scripts\gear\cartel.sqf";
+			headerType = -1;};
+		};
+		{
+			class policegear {file = "scripts\gear\pmc.sqf";
+			headerType = -1;};
+		};
+>>>>>>> GearScripts
 	};
 };
 
