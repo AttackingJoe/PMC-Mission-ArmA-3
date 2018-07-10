@@ -12,7 +12,7 @@ class CfgFunctions
 			headerType = -1;};
 			class cartelgear {file = "scripts\gear\cartel.sqf";
 			headerType = -1;};
-			class policegear {file = "scripts\gear\pmc.sqf";
+			class policegear {file = "scripts\gear\police.sqf";
 			headerType = -1;};
 		};
 	};
