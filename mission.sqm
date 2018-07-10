@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5624.6548,39.194637,11044.139};
-		dir[]={-0.13872452,-0.84104067,0.52293372};
-		up[]={-0.21565765,0.54094583,0.81293976};
-		aside[]={0.96659344,-2.1827873e-007,0.25641987};
+		pos[]={5614.6763,36.595161,11054.551};
+		dir[]={0.39084604,-0.72261125,-0.57025665};
+		up[]={0.40855056,0.69119781,-0.5960865};
+		aside[]={-0.82490325,7.628114e-008,-0.56537849};
 	};
 };
 binarizationWanted=0;
@@ -250,7 +250,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=30;
+		items=29;
 		class Item0
 		{
 			dataType="Object";
@@ -400,7 +400,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5711.0142,3.9000001,11014.786};
+				position[]={5734.3496,3.9996784,11001.641};
 				angles[]={0,5.6209874,0};
 			};
 			side="Empty";
@@ -422,7 +422,7 @@ class Mission
 			side="Empty";
 			class Attributes
 			{
-				init="this addaction [""Show me the money"", ""hint format[""""you have %1 in cash"""",accountbalance];""]; ";
+				init="this addaction [""Show me the money"", ""this addWeapon """"hgun_Pistol_heavy_01_MRD_F"""";""]; ";
 				createAsSimpleObject=1;
 				disableSimulation=1;
 			};
@@ -510,24 +510,6 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5639.8853,15.012498,11061.92};
-				angles[]={0,5.2093115,6.2822089};
-			};
-			side="Empty";
-			flags=4;
-			class Attributes
-			{
-				createAsSimpleObject=1;
-				disableSimulation=1;
-			};
-			id=22;
-			type="Land_PCSet_01_screen_F";
-		};
-		class Item16
-		{
-			dataType="Object";
-			class PositionInfo
-			{
 				position[]={5641.0996,15.833692,11060.392};
 				angles[]={0,6.0536695,6.2822089};
 			};
@@ -542,7 +524,7 @@ class Mission
 			type="Land_PCSet_01_screen_F";
 			atlOffset=0.00049495697;
 		};
-		class Item17
+		class Item16
 		{
 			dataType="Object";
 			class PositionInfo
@@ -560,7 +542,7 @@ class Mission
 			id=24;
 			type="Land_PCSet_01_mouse_F";
 		};
-		class Item18
+		class Item17
 		{
 			dataType="Object";
 			class PositionInfo
@@ -579,7 +561,7 @@ class Mission
 			type="Land_PCSet_01_mousepad_F";
 			atlOffset=0.00049495697;
 		};
-		class Item19
+		class Item18
 		{
 			dataType="Object";
 			class PositionInfo
@@ -598,7 +580,7 @@ class Mission
 			type="Land_FilePhotos_F";
 			atlOffset=0.00049591064;
 		};
-		class Item20
+		class Item19
 		{
 			dataType="Object";
 			class PositionInfo
@@ -617,7 +599,7 @@ class Mission
 			type="Land_File2_F";
 			atlOffset=0.00049591064;
 		};
-		class Item21
+		class Item20
 		{
 			dataType="Object";
 			class PositionInfo
@@ -636,7 +618,7 @@ class Mission
 			type="Land_File1_F";
 			atlOffset=0.00049495697;
 		};
-		class Item22
+		class Item21
 		{
 			dataType="Object";
 			class PositionInfo
@@ -654,7 +636,7 @@ class Mission
 			id=32;
 			type="Land_OfficeChair_01_F";
 		};
-		class Item23
+		class Item22
 		{
 			dataType="Object";
 			class PositionInfo
@@ -672,7 +654,7 @@ class Mission
 			id=33;
 			type="Land_ArmChair_01_F";
 		};
-		class Item24
+		class Item23
 		{
 			dataType="Object";
 			class PositionInfo
@@ -690,7 +672,7 @@ class Mission
 			id=34;
 			type="Land_Sofa_01_F";
 		};
-		class Item25
+		class Item24
 		{
 			dataType="Object";
 			class PositionInfo
@@ -709,7 +691,7 @@ class Mission
 			type="Land_Tablet_01_F";
 			atlOffset=9.5367432e-007;
 		};
-		class Item26
+		class Item25
 		{
 			dataType="Object";
 			class PositionInfo
@@ -727,7 +709,7 @@ class Mission
 			id=37;
 			type="Land_RattanTable_01_F";
 		};
-		class Item27
+		class Item26
 		{
 			dataType="Object";
 			class PositionInfo
@@ -744,7 +726,7 @@ class Mission
 			type="Land_AirstripPlatform_01_F";
 			atlOffset=14.231678;
 		};
-		class Item28
+		class Item27
 		{
 			dataType="Group";
 			side="West";
@@ -756,8 +738,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5621.5479,21.899439,11053.123};
-						angles[]={0,5.4916263,0};
+						position[]={5625.8188,21.899439,11046.868};
+						angles[]={-0,5.4916263,0};
 					};
 					side="West";
 					flags=6;
@@ -1058,7 +1040,7 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5657.6606,2.6614389,11046.244};
+						position[]={5657.6611,2.6614389,11046.244};
 						angles[]={0,2.4512103,0};
 					};
 					side="West";
@@ -1360,7 +1342,7 @@ class Mission
 			id=74;
 			atlOffset=0.00040245056;
 		};
-		class Item29
+		class Item28
 		{
 			dataType="Marker";
 			position[]={5648.3911,2.6600001,11053.444};

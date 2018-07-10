@@ -2,14 +2,5 @@ _newCiv = cursorTarget;
 
 /////////////////////////////////////////////////////////////////////////////////////
 
-playmusic "Music1";
-sleep (2);
-player sideChat "Get Down Sir";
-playmusic "Music5";
-sleep (2);
 _newCiv switchMove "ActsPsitMstpSnonWunaDnon_sceneNikitinDisloyalty_Sykes";
-sleep (2);
-
-/////////////////////////////////////////////////////////////////////////////////////
-
-exit;
+sleep (10);
