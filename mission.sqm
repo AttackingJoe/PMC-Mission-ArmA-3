@@ -5,21 +5,21 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=1;
+	toggles=513;
 	class ItemIDProvider
 	{
-		nextID=99;
+		nextID=107;
 	};
 	class MarkerIDProvider
 	{
-		nextID=1;
+		nextID=2;
 	};
 	class Camera
 	{
-		pos[]={5614.6763,36.595161,11054.551};
-		dir[]={0.39084604,-0.72261125,-0.57025665};
-		up[]={0.40855056,0.69119781,-0.5960865};
-		aside[]={-0.82490325,7.628114e-008,-0.56537849};
+		pos[]={5681.1489,31.960606,11014.226};
+		dir[]={-0.39930978,-0.52005565,0.7552073};
+		up[]={-0.24314028,0.85404539,0.45984864};
+		aside[]={0.88414514,1.0711374e-006,0.46748883};
 	};
 };
 binarizationWanted=0;
@@ -34,13 +34,15 @@ addons[]=
 	"A3_Props_F_Orange_Furniture",
 	"A3_Structures_F_Exp_Infrastructure_Airports",
 	"A3_Characters_F",
-	"A3_Ui_F"
+	"A3_Ui_F",
+	"A3_Structures_F_Tank_Military_RepairDepot",
+	"A3_Weapons_F_Ammoboxes"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=7;
+		items=9;
 		class Item0
 		{
 			className="A3_Structures_F_Exp";
@@ -87,6 +89,20 @@ class AddonsMetaData
 		{
 			className="A3_Ui_F";
 			name="Arma 3 - User Interface";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item7
+		{
+			className="A3_Structures_F_Tank";
+			name="Arma 3 Tank - Buildings and Structures";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
+		class Item8
+		{
+			className="A3_Weapons_F";
+			name="Arma 3 Alpha - Weapons and Accessories";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
@@ -250,7 +266,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=29;
+		items=32;
 		class Item0
 		{
 			dataType="Object";
@@ -714,7 +730,7 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={5626.7524,9.5847702,11044.555};
+				position[]={5630.0596,9.5847702,11044.887};
 				angles[]={0,0.74189067,0};
 			};
 			side="Empty";
@@ -738,8 +754,8 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={5625.8188,21.899439,11046.868};
-						angles[]={-0,5.4916263,0};
+						position[]={5649.6289,2.6614389,11046.917};
+						angles[]={0,2.5547898,0};
 					};
 					side="West";
 					flags=6;
@@ -751,7 +767,6 @@ class Mission
 					};
 					id=84;
 					type="B_Soldier_unarmed_F";
-					atlOffset=0.00040245056;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -1340,7 +1355,6 @@ class Mission
 			{
 			};
 			id=74;
-			atlOffset=0.00040245056;
 		};
 		class Item28
 		{
@@ -1349,6 +1363,96 @@ class Mission
 			name="Respawn_West";
 			type="Empty";
 			id=97;
+		};
+		class Item29
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5607.3921,5.0779986,10997.734};
+				angles[]={0,0.7967428,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="carboxmenu";
+			};
+			id=104;
+			type="Land_RepairDepot_01_green_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
+		};
+		class Item30
+		{
+			dataType="Marker";
+			position[]={5597.0981,2.6600001,11017.009};
+			name="carspawn";
+			type="hd_dot";
+			alpha=0;
+			id=105;
+		};
+		class Item31
+		{
+			dataType="Object";
+			class PositionInfo
+			{
+				position[]={5661.272,3.8154228,11078.644};
+				angles[]={0,5.4456191,0};
+			};
+			side="Empty";
+			flags=4;
+			class Attributes
+			{
+				name="gearbox";
+			};
+			id=106;
+			type="I_supplyCrate_F";
+			atlOffset=0.00028371811;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="ammoBox";
+					expression="[_this,_value] call bis_fnc_initAmmoBox;";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="[[[[""launch_NLAW_F"",""arifle_Mk20_F"",""LMG_Mk200_F""],[1,2,1]],[[""9Rnd_45ACP_Mag"",""30Rnd_9x21_Mag"",""20Rnd_762x51_Mag"",""30Rnd_556x45_Stanag"",""200Rnd_65x39_cased_Box"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_green"",""NLAW_F"",""Laserbatteries"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareYellow_F"",""UGL_FlareGreen_F""],[6,6,6,24,3,6,2,2,6,3,2,6,6,2,2,2,2]],[[""Laserdesignator_03"",""FirstAidKit"",""acc_flashlight"",""bipod_03_F_blk""],[1,10,2,1]],[[""B_FieldPack_oli""],[2]]],false]";
+						};
+					};
+				};
+				nAttributes=1;
+			};
 		};
 	};
 };
