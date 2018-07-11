@@ -1,5 +1,3 @@
-#include "LARs\LARs_spawnComp.cpp"
-#include "missions\compositions.cfg"
 class CfgFunctions
 {
 	class function 
