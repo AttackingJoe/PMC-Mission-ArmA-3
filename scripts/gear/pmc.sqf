@@ -7,30 +7,30 @@ _defaultmag = "11Rnd_45ACP_Mag";
 _FAC = "FirstAidKit";
 //Skip to line 30 define mag counts
 //removes old gear
-removeAllWeapons this;
-removeAllItems this;
-removeUniform this; 
-removeHeadgear this;
-removeVest this;
+removeAllWeapons _this;
+removeAllItems _this;
+removeUniform _this; 
+removeHeadgear _this;
+removeVest _this;
 //adds default items
 //===============================================================================================
-this linkItem "ItemMap";
-this linkItem "ItemCompass";
-this linkItem "ItemWatch";
-this linkItem "ItemRadio";
-this linkItem "ItemGPS";
+_this linkItem "ItemMap";
+_this linkItem "ItemCompass";
+_this linkItem "ItemWatch";
+_this linkItem "ItemRadio";
+_this linkItem "ItemGPS";
 //adds defined gear 
-this addHeadgear _helm;
-this forceAddUniform _clothes;
-this addVest _vest;
+_this addHeadgear _helm;
+_this forceAddUniform _clothes;
+_this addVest _vest;
 //===============================================================================================
 //Set ammount of Magazines, change second number to desird ammount
-for "_i" from 1 to 6 do {this addItemToVest _defaultmag;};
+for "_i" from 1 to 6 do {_this addItemToVest _defaultmag;};
 
 
 //Set ammount of FACS, change second number to desird ammount
-for "_i" from 1 to 2 do {this addItemToUniform _FAC;};
+for "_i" from 1 to 2 do {_this addItemToUniform _FAC;};
 
 //===============================================================================================
 //Gun gets added last so it spawns loaded.
-this addWeapon _defaultgun;
+_this addWeapon _defaultgun;
