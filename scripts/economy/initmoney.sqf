@@ -11,8 +11,12 @@ accountbalance = 10000000;
 //define a gear variable
 missionNamespace setVariable ["gearmanifest", 1,true];
 
+gearmanifest = [];
+
  //define a cars and other vehicles variable
 missionNamespace setVariable ["vehiclepool", 1,true];
+
+vehiclepool = [];
 
  //define functions
  //======================================================================

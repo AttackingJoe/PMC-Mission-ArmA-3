@@ -1,5 +1,5 @@
-execVM "scripts\economy\initmoney.sqf";
+
+//civ system
 execVM "Engima\Civilians\Init.sqf";
 execVM "Engima\Traffic\Init.sqf";
 execVM "startciv.sqf";
-spawn "scripts\startgeartask.sqf";
