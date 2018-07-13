@@ -3,7 +3,7 @@ _Xpos = _location select 1;
 _Ypos = _location select 2;
 _markerstr = createMarker ["THISSHIT",[_Xpos,_Ypos]];
 _markerstr setMarkerShape "ICON";
-_markerstr setMarkerType "hd_dot";
+_markerstr setMarkerType "flag_USA";
 diag_log _location;
 diag_log _Xpos; 
 diag_log _Ypos;
