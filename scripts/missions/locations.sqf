@@ -1,0 +1,10 @@
+L1	=	["fortress_ruins"	,12055.2,2467.86,	"Cartel"];
+L2	=	["Bala_Airstrip"	,2089.06,3523.68,	"Government"];
+L3	=	["La_Rochelle_Aerodrome"	,11650.3,13135.4,	"Government"];
+L4	=	["Saint-George_Airstrip"	,11570,3150.79,	"Government"];
+L5	=	["AÃƒÂ©roport_de_Tanoa"	,6952.61,7400.35,	"Government"];
+L6	=	["Tuvanaka_Airbase"	,1953.34,13173.8,	"Government"];
+L7	=	["Georgetown"	,5396.22,10334.7,	"Government"];
+L8	=	["Comms_Whiskey"	,2722.81,12317.6,	"Government"];
+L9	=	["Blue_Pearl_industrial_port"	,13523,12134.8,	"ION"];
+L10	=	["Red_Spring_surface_mine"	,11868.6,10426.9,	"ION"];
