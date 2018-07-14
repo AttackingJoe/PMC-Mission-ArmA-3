@@ -8,12 +8,16 @@ missionNamespace setVariable ["accountbalance", 1,true];
 accountbalance = 10000000;
 //DEBUG
 
+/*
+accountbalance = 0;
+*/
+
 //define a gear variable
 missionNamespace setVariable ["gearmanifest", 1,true];
 
 gearmanifest = [];
 
- //define a cars and other vehicles variable
+//define a cars and other vehicles variable
 missionNamespace setVariable ["vehiclepool", 1,true];
 
 vehiclepool = [];
@@ -38,10 +42,10 @@ addPool = compile preProcessFile "scripts\economy\fn_addCar.sqf";
 //take cars from the roster
 subPool = compile preProcessFile "scripts\economy\fn_subCar.sqf";
 
-//addEverything to the VA box (name is somthing fitting and note it here)
+//addEverything to the VA box (gearbox)
 setAmmoBox = compile preProcessFile "scripts\economy\fn_setGear.sqf";
 
-//Add cars to spawn to a box (name it carbox or somthing and note it here)
+//Add cars to spawn to a box (carbox)
 setCarBox = compile preProcessFile "scripts\economy\fn_setCarbox.sqf";
 
 //add check functionality
@@ -50,4 +54,4 @@ checkMoney = compile preProcessFile "scripts\economy\fn_checkMoney.sqf";
 
 //add functionality to select rewards
 	
-	//add the ability to chose rewards for missions based on dificulty.
+//add the ability to chose rewards for missions based on dificulty.

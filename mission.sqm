@@ -5,8 +5,8 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=641;
-	class ItemIDProvider    
+	toggles=513;
+	class ItemIDProvider
 	{
 		nextID=107;
 	};
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5620.2847,11.578585,10987.506};
-		dir[]={-0.6387108,-0.57549316,0.51097977};
-		up[]={-0.44946036,0.81771833,0.35957575};
-		aside[]={0.62478238,5.3667463e-007,0.78096676};
+		pos[]={5684.208,52.16843,11038.903};
+		dir[]={-0.35835099,-0.71188414,0.60420179};
+		up[]={-0.36318213,0.70221597,0.61234856};
+		aside[]={0.86021954,8.5693318e-007,0.51019907};
 	};
 };
 binarizationWanted=0;
@@ -755,7 +755,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5658.939,2.6614389,11040.165};
-						angles[]={-0,2.5547898,0};
+						angles[]={0,2.5547898,0};
 					};
 					side="West";
 					flags=6;
@@ -1447,7 +1447,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""launch_NLAW_F"",""arifle_Mk20_F"",""LMG_Mk200_F""],[1,2,1]],[[""9Rnd_45ACP_Mag"",""30Rnd_9x21_Mag"",""20Rnd_762x51_Mag"",""30Rnd_556x45_Stanag"",""200Rnd_65x39_cased_Box"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_green"",""NLAW_F"",""Laserbatteries"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareYellow_F"",""UGL_FlareGreen_F""],[6,6,6,24,3,6,2,2,6,3,2,6,6,2,2,2,2]],[[""Laserdesignator_03"",""FirstAidKit"",""acc_flashlight"",""bipod_03_F_blk""],[1,10,2,1]],[[""B_FieldPack_oli""],[2]]],false]";
+							value="[[[[],[]],[[],[]],[[""FirstAidKit"",""Binocular"",""ItemCompass"",""ItemGPS"",""ItemMap"",""Medikit"",""ItemRadio"",""ToolKit""],[1,1,1,1,1,1,1,1]],[[],[]]],false]";
 						};
 					};
 				};
