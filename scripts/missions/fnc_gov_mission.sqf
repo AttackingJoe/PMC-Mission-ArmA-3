@@ -1,0 +1,11 @@
+params ["_location","_type"];
+_markerstr = createMarker ["markername",_location];
+_markerstr setMarkerShape "ICON";
+_markerstr setMarkerType "hd_dot";
+_enemies = createGroup east;
+"O_Soldier_unarmed_F" createUnit [_location, _enemies, "this call function_fnc_cartelgear"];
+"O_Soldier_unarmed_F" createUnit [_location, _enemies, "this call function_fnc_cartelgear"];
+"O_Soldier_unarmed_F" createUnit [_location, _enemies, "this call function_fnc_cartelgear"];
+"O_Soldier_unarmed_F" createUnit [_location, _enemies, "this call function_fnc_cartelgear"];
+"O_Soldier_unarmed_F" createUnit [_location, _enemies, "this call function_fnc_cartelgear"];
+"O_Soldier_unarmed_F" createUnit [_location, _enemies, "this call function_fnc_cartelgear"];

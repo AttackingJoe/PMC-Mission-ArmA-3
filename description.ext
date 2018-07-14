@@ -13,6 +13,11 @@ class CfgFunctions
 			class policegear {file = "scripts\gear\police.sqf";
 			headerType = -1;};
 		};
+		class mission
+		{
+		class govmission {file = "scripts\missions\fnc_gov_mission.sqf";
+			headerType = -1;};
+		};
 	};
 };
 
