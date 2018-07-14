@@ -5,8 +5,8 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
-	class ItemIDProvider
+	toggles=641;
+	class ItemIDProvider    
 	{
 		nextID=107;
 	};
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5668.6919,11.173407,11052.116};
-		dir[]={-0.48220658,-0.51034576,-0.71222633};
-		up[]={-0.28618312,0.85988319,-0.42269492};
-		aside[]={-0.82817298,1.291075e-006,0.5607028};
+		pos[]={5620.2847,11.578585,10987.506};
+		dir[]={-0.6387108,-0.57549316,0.51097977};
+		up[]={-0.44946036,0.81771833,0.35957575};
+		aside[]={0.62478238,5.3667463e-007,0.78096676};
 	};
 };
 binarizationWanted=0;
@@ -1408,7 +1408,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={5597.0981,2.6600001,11017.009};
-			name="carspawn";
+			name="car_spawn";
 			type="hd_dot";
 			alpha=0;
 			id=105;
