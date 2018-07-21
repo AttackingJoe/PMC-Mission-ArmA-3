@@ -4,7 +4,19 @@ _controller = _location select 3;
 _Xpos = _location select 1;
 _Ypos = _location select 2;
 _building = [_xpos,_ypos] nearObjects ["Building", 500] call BIS_fnc_selectRandom;
+_enterable = [];
 //function to check if building is usable BIS_fnc_isBuildingEnterable;
+{
+_en = [_x] call BIS_fnc_isBuildingEnterable;
+
+if(_en)then{
+_enterable = _enterable + _x;
+};
+
+}forEach _building;
+
+_building = _enterable;
+_enterable = [];
 
 hint format["you have %1 in cash",_buildingcheck];
 if (_controller isEqualTo "Government") 

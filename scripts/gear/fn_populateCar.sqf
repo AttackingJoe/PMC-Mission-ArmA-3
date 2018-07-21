@@ -8,4 +8,7 @@ carboxmenu addAction ["Open Garage",{
 
 	//Pass created vehicle to function for use as position
 	["Open",[ true, _vehicle ]] call BIS_fnc_garage; 
+	
+	
+	["offroad_01_unarmed_f"] call BIS_fnc_garage_data;
 }];
