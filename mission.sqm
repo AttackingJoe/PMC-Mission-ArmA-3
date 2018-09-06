@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={5668.6919,11.173407,11052.116};
-		dir[]={-0.48220658,-0.51034576,-0.71222633};
-		up[]={-0.28618312,0.85988319,-0.42269492};
-		aside[]={-0.82817298,1.291075e-006,0.5607028};
+		pos[]={5684.208,52.16843,11038.903};
+		dir[]={-0.35835099,-0.71188414,0.60420179};
+		up[]={-0.36318213,0.70221597,0.61234856};
+		aside[]={0.86021954,8.5693318e-007,0.51019907};
 	};
 };
 binarizationWanted=0;
@@ -755,7 +755,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={5658.939,2.6614389,11040.165};
-						angles[]={-0,2.5547898,0};
+						angles[]={0,2.5547898,0};
 					};
 					side="West";
 					flags=6;
@@ -1408,7 +1408,7 @@ class Mission
 		{
 			dataType="Marker";
 			position[]={5597.0981,2.6600001,11017.009};
-			name="carspawn";
+			name="car_spawn";
 			type="hd_dot";
 			alpha=0;
 			id=105;
@@ -1447,7 +1447,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[""launch_NLAW_F"",""arifle_Mk20_F"",""LMG_Mk200_F""],[1,2,1]],[[""9Rnd_45ACP_Mag"",""30Rnd_9x21_Mag"",""20Rnd_762x51_Mag"",""30Rnd_556x45_Stanag"",""200Rnd_65x39_cased_Box"",""1Rnd_HE_Grenade_shell"",""1Rnd_Smoke_Grenade_shell"",""1Rnd_SmokeGreen_Grenade_shell"",""Chemlight_green"",""NLAW_F"",""Laserbatteries"",""HandGrenade"",""MiniGrenade"",""SmokeShell"",""SmokeShellGreen"",""UGL_FlareYellow_F"",""UGL_FlareGreen_F""],[6,6,6,24,3,6,2,2,6,3,2,6,6,2,2,2,2]],[[""Laserdesignator_03"",""FirstAidKit"",""acc_flashlight"",""bipod_03_F_blk""],[1,10,2,1]],[[""B_FieldPack_oli""],[2]]],false]";
+							value="[[[[],[]],[[],[]],[[""FirstAidKit"",""Binocular"",""ItemCompass"",""ItemGPS"",""ItemMap"",""Medikit"",""ItemRadio"",""ToolKit""],[1,1,1,1,1,1,1,1]],[[],[]]],false]";
 						};
 					};
 				};

@@ -11,5 +11,5 @@ _gear = _gear + gearmanifest;
 //Populate with predefined items and whatever is already in the crate
 [_crate,(backpackCargo _crate)] call BIS_fnc_addVirtualBackpackCargo;
 [_crate,(itemCargo _crate) + _gear] call BIS_fnc_addVirtualItemCargo;
-[_crate,(magazineCargo _crate] call BIS_fnc_addVirtualMagazineCargo;
-[_crate,(weaponCargo _crate] call BIS_fnc_addVirtualWeaponCargo;
+[_crate,(magazineCargo _crate)] call BIS_fnc_addVirtualMagazineCargo;
+[_crate,(weaponCargo _crate)] call BIS_fnc_addVirtualWeaponCargo;
